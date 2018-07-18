@@ -23,7 +23,7 @@ subprojects {
   apply plugin: 'org.springframework.boot'
   apply plugin: 'io.spring.dependency-management'
 
-  group = 'org.lab.insurance.asset'
+  group = 'org.lab.insurance.legalentity'
   version = version
   sourceCompatibility = 1.8
 
@@ -77,11 +77,6 @@ project(":lab-insurance-legal-entity-core") {
     files jar.archivePath
     buildArgs(['JAR_FILE': "${jar.archiveName}"])
   }
-
-  //TODO
-  bootJar {
-    mainClassName = 'org.lab.insurance.legalentity.core.Dummy'
-  }
 }
 
 project(":lab-insurance-legal-entity-api") {
@@ -100,10 +95,5 @@ project(":lab-insurance-legal-entity-api") {
     tags 'latest'
     files jar.archivePath
     buildArgs(['JAR_FILE': "${jar.archiveName}"])
-  }
-
-  //TODO
-  bootJar {
-    mainClassName = 'org.lab.insurance.legalentity.core.Dummy'
   }
 }
