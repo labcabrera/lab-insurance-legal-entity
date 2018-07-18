@@ -1,0 +1,3 @@
+include ":lab-insurance-legal-entity-common",
+        ":lab-insurance-legal-entity-core",
+        ":lab-insurance-legal-entity-api"

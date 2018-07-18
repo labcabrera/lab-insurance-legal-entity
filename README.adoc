@@ -1,0 +1,7 @@
+= Legal entity module - Open Asset Management System
+
+:linkLabInsurance: https://github.com/labcabrera/lab-insurance
+
+== Introducción
+
+Módulo de entidades legales proyecto {linkLabInsurance}[lab-insurance] project.
